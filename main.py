@@ -17,7 +17,7 @@ password = config['password']
 api_id   = config['api_id']
 api_hash = config['api_hash']
 token    = config['token']
-user_id  = str(config['user_id'])
+user_id  = config['user_id']
 
 width  = 512
 height = 512
@@ -104,8 +104,8 @@ async def start(client, message):
 def draw(client, message):
     if message.from_user.id != user_id:
         message.reply_text(f"You are not allowed to use this bot.\nYour user id is: {message.from_user.id}")
-        print(message.from_user.id,user_id)
-        print(type(message.from_user.id),type(user_id))
+        #print(message.from_user.id,user_id)
+        #print(type(message.from_user.id),type(user_id))
     else:
 
         msg = message.text
