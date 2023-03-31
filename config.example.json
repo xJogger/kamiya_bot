@@ -1,0 +1,8 @@
+{
+    "email"   : "example@gmail.com",
+    "password": "mypassword",
+    "api_id"  : 123456,
+    "api_hash": "myhash456",
+    "token"   : "mytoken789",
+    "user_id" : "78946"
+}
