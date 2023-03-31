@@ -17,7 +17,7 @@ password = config['password']
 api_id   = config['api_id']
 api_hash = config['api_hash']
 token    = config['token']
-user_id  = config['user_id']
+user_id  = str(config['user_id'])
 
 width  = 512
 height = 512
