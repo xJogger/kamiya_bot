@@ -104,7 +104,7 @@ def info(client, message):
     if message.from_user.id != user_id:
         message.reply_text(f"You are not allowed to use this bot.\nYour user id is: {message.from_user.id}")
     else:
-        message.reply_text(f"Here is the current info:\nWidth:`{str(width)}`\nHeight:`{str(height)}`\nNegative Prompt:`{n_prompt}`\nModel:`{model}`\nSampler:`{sampler}`")
+        message.reply_text(f"Here is the current info:\nWidth:`{str(width)}`\nHeight:`{str(height)}`\nNegative Prompt:`{negative_prompt}`\nModel:`{model}`\nSampler:`{sampler}`")
 
 @app.on_message(filters.command(["start"], prefixes=["/", "!"]))
 async def start(client, message):
