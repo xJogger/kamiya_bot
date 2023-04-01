@@ -19,11 +19,13 @@ api_hash = config['api_hash']
 token    = config['token']
 user_id  = config['user_id']
 
-width  = 512
-height = 512
+
 
 negative_prompt = "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, bad feet"
-
+sampler= 'DPM++ 2M Karras'
+width  = 512
+height = 512
+model  = 'anything-v4.0-fp16-default'
 
 def login(email,passwd):
     headers = {
@@ -74,11 +76,11 @@ def gen_img(prompt,n_prompt,key):
         'steps': 28,
         'scale': 12,
         'seed': random.randrange(100000000, 999999999),
-        'sampler': 'DPM++ 2M Karras',
+        'sampler': sampler,
         'width': width,
         'height': height,
         'traceId': str(uuid.uuid4()),
-        'model': 'anything-v4.0-fp16-default',
+        'model': model,
     }
     
     response = requests.post('https://p0.kamiya.dev/api/image/generate', headers=headers, json=json_data)
@@ -95,6 +97,14 @@ app = Client(
     api_hash =api_hash,
     bot_token=token
 )
+
+
+@app.on_message(filters.command(["info"]))
+def info(client, message):
+    if message.from_user.id != user_id:
+        message.reply_text(f"You are not allowed to use this bot.\nYour user id is: {message.from_user.id}")
+    else:
+        message.reply_text(f"Here is the current info:\nWidth:`{str(width)}`\nHeight:`{str(height)}`\nNegative Prompt:`{n_prompt}`\nModel:`{model}`\nSampler:`{sampler}`")
 
 @app.on_message(filters.command(["start"], prefixes=["/", "!"]))
 async def start(client, message):
