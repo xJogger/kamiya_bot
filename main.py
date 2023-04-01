@@ -20,11 +20,22 @@ token    = config['token']
 user_id  = config['user_id']
 
 
+'''
+cmd:
+start - Say Hello
+info - Show info
+set_an - Set Anything
+set_ab - Set AbyssOrangeMix2
+set_l - Set 768x512 
+set_p - Set 512x768 
+set_s - Set 640x640
+'''
+
 
 negative_prompt = "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, bad feet"
 sampler= 'DPM++ 2M Karras'
-width  = 512
-height = 512
+width  = 640
+height = 640
 model  = 'anything-v4.0-fp16-default'
 
 def login(email,passwd):
@@ -105,6 +116,58 @@ def info(client, message):
         message.reply_text(f"You are not allowed to use this bot.\nYour user id is: {message.from_user.id}")
     else:
         message.reply_text(f"Here is the current info : \nWidth : `{str(width)}`\nHeight : `{str(height)}`\nNegative Prompt : `{negative_prompt}`\nModel : `{model}`\nSampler : `{sampler}`")
+
+@app.on_message(filters.command(["set_ab"]))
+def set_ab(client, message):
+    if message.from_user.id != user_id:
+        message.reply_text(f"You are not allowed to use this bot.\nYour user id is: {message.from_user.id}")
+    else:
+        global model
+        model = "AbyssOrangeMix2"
+        message.reply_text(f"Current model is : `{model}`")
+
+@app.on_message(filters.command(["set_an"]))
+def set_an(client, message):
+    if message.from_user.id != user_id:
+        message.reply_text(f"You are not allowed to use this bot.\nYour user id is: {message.from_user.id}")
+    else:
+        global model
+        model = 'anything-v4.0-fp16-default'
+        message.reply_text(f"Current model is : `{model}`")
+
+@app.on_message(filters.command(["set_l"]))
+def set_l(client, message):
+    if message.from_user.id != user_id:
+        message.reply_text(f"You are not allowed to use this bot.\nYour user id is: {message.from_user.id}")
+    else:
+        global width
+        global height
+        width = 768
+        height = 512
+        message.reply_text(f"Current width x height is : `768x512`")
+
+@app.on_message(filters.command(["set_p"]))
+def set_p(client, message):
+    if message.from_user.id != user_id:
+        message.reply_text(f"You are not allowed to use this bot.\nYour user id is: {message.from_user.id}")
+    else:
+        global width
+        global height
+        width = 512
+        height = 768
+        message.reply_text(f"Current width x height is : `512x768`")
+
+@app.on_message(filters.command(["set_s"]))
+def set_s(client, message):
+    if message.from_user.id != user_id:
+        message.reply_text(f"You are not allowed to use this bot.\nYour user id is: {message.from_user.id}")
+    else:
+        global width
+        global height
+        width = 640
+        height = 640
+        message.reply_text(f"Current width x height is : `640x640`")
+
 
 @app.on_message(filters.command(["start"], prefixes=["/", "!"]))
 async def start(client, message):
