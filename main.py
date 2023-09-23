@@ -8,24 +8,24 @@ import random
 from PIL import Image, PngImagePlugin
 import base64
 import uuid
+import time
 
 with open('config.json') as f:
     config = json.load(f)
 
-email    = config['email']
-password = config['password']
-api_id   = config['api_id']
-api_hash = config['api_hash']
-token    = config['token']
-user_id  = config['user_id']
-
+key          = config['key']
+time_out_img = config['time_out_img']
+api_id       = config['api_id']
+api_hash     = config['api_hash']
+token        = config['token']
+user_id      = config['user_id']
 
 '''
 cmd:
 start - Say Hello
 info - Show info
 set_an - Set Anything
-set_ab - Set AbyssOrangeMix2
+set_ab - Set AbyssOrangeMix3_A2(AOM3A2)
 set_l - Set 768x512 
 set_p - Set 512x768 
 set_s - Set 640x640
@@ -36,70 +36,54 @@ negative_prompt = "lowres, bad anatomy, bad hands, text, error, missing fingers,
 sampler= 'DPM++ 2M Karras'
 width  = 640
 height = 640
-model  = 'anything-v4.0-fp16-default'
+model  = 'Anything-v4.5-pruned-mergedVa'
 
-def login(email,passwd):
+def get_config(key):
     headers = {
-        'authority': 'p0.kamiya.dev',
-        'accept': '*/*',
-        'accept-language': 'zh-CN,zh;q=0.9',
-        'content-type': 'application/json',
-        'origin': 'https://www.kamiya.dev',
-        'referer': 'https://www.kamiya.dev/',
-        'sec-ch-ua': '"Chromium";v="111", "Not(A:Brand";v="8"',
-        'sec-ch-ua-mobile': '?1',
-        'sec-ch-ua-platform': '"Android"',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Linux; Android 11; Mi 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36',
+        "Authorization": f"Bearer {key}"
     }
-    
-    json_data = {
-        'email': email ,
-        'password': passwd ,
-    }
-    
-    response = requests.post('https://p0.kamiya.dev/api/account/login', headers=headers, json=json_data)
-    return response.json()["token"]
-    
+    response = requests.get('https://p0.kamiya.dev/api/image/config', headers=headers)
+    return response.json()
+
 def gen_img(prompt,n_prompt,key):
     headers = {
-        'authority': 'p0.kamiya.dev',
-        'accept': 'application/json, text/javascript',
-        'accept-language': 'zh-CN,zh;q=0.9',
-        'authorization': f'Bearer {key}',
-        'content-type': 'application/json',
-        'origin': 'https://www.kamiya.dev',
-        'referer': 'https://www.kamiya.dev/',
-        'sec-ch-ua': '"Chromium";v="111", "Not(A:Brand";v="8"',
-        'sec-ch-ua-mobile': '?1',
-        'sec-ch-ua-platform': '"Android"',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'same-site',
-        'user-agent': 'Mozilla/5.0 (Linux; Android 11; Mi 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36',
+        "Authorization": f"Bearer {key}"
     }
     
     json_data = {
-        'prompt': prompt,
-        'negativePrompt': n_prompt,
-        'steps': 28,
-        'scale': 12,
-        'seed': random.randrange(100000000, 999999999),
-        'sampler': sampler,
-        'width': width,
-        'height': height,
-        'traceId': str(uuid.uuid4()),
-        'model': model,
+        "type": "text2image",
+        "prompts": prompt,
+        "negativePrompts": n_prompt,
+        "step": 28,
+        "cfg": 12,
+        "seed": random.randrange(100000000, 999999999),
+        "sampling": sampler,
+        "width": width,
+        "height": height,
+        "model": model,
+        "LoRAs": []
     }
     
     response = requests.post('https://p0.kamiya.dev/api/image/generate', headers=headers, json=json_data)
-    return response.json()["image"]
+    return response.json()["data"]["hashid"]
+
+def get_img(hashid,key,wait_time=600):
+    headers = {
+        "Authorization": f"Bearer {key}"
+    }
+    
+    response = requests.get(f'https://p0.kamiya.dev/api/image/generate/{hashid}', headers=headers)
+
+    time_cnt = 0
+    while('jpg' not in response.json()["data"]["metadata"]):
+        time.sleep(1);time_cnt = time_cnt + 1
+        if time_cnt > wait_time: return time_out_img
+        response = requests.get(f'https://p0.kamiya.dev/api/image/generate/{hashid}', headers=headers)
+    return response.json()["data"]["metadata"]["jpg"]
 
 def kamiya_api(prompt,n_prompt):
-    key = login(email,password)
-    url = gen_img(prompt,n_prompt,key)
+    hashid = gen_img(prompt,n_prompt,key)
+    url    = get_img(hashid,key)
     return url
 
 app = Client(
@@ -123,7 +107,7 @@ def set_ab(client, message):
         message.reply_text(f"You are not allowed to use this bot.\nYour user id is: {message.from_user.id}")
     else:
         global model
-        model = "AbyssOrangeMix2"
+        model = "aom3a2"
         message.reply_text(f"Current model is : `{model}`")
 
 @app.on_message(filters.command(["set_an"]))
@@ -132,7 +116,7 @@ def set_an(client, message):
         message.reply_text(f"You are not allowed to use this bot.\nYour user id is: {message.from_user.id}")
     else:
         global model
-        model = 'anything-v4.0-fp16-default'
+        model = 'Anything-v4.5-pruned-mergedVa'
         message.reply_text(f"Current model is : `{model}`")
 
 @app.on_message(filters.command(["set_l"]))

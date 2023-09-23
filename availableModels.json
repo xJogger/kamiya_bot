@@ -1,0 +1,1723 @@
+{
+    "status": 200,
+    "message": "OK",
+    "data": {
+        "busyStatus": "大伙儿都很闲，应该立刻就能生成好",
+        "availableArtboards": [{
+            "id": "480x854",
+            "name": "9:16 长图（480 x 854） 消耗3点",
+            "width": 480,
+            "height": 854,
+            "points": 3
+        }, {
+            "id": "512x768",
+            "name": "3:4 长图（512 x 768） 消耗3点",
+            "width": 512,
+            "height": 768,
+            "points": 3
+        }, {
+            "id": "640x640",
+            "name": "1:1 方形（640 x 640） 消耗3点",
+            "width": 640,
+            "height": 640,
+            "points": 3
+        }, {
+            "id": "768x512",
+            "name": "4:3 宽图（768 x 512） 消耗3点",
+            "width": 768,
+            "height": 512,
+            "points": 3
+        }, {
+            "id": "854x480",
+            "name": "16:9 宽图（854 x 480） 消耗3点",
+            "width": 854,
+            "height": 480,
+            "points": 3
+        }, {
+            "id": "1024x576",
+            "name": "16:9 宽图（1024 x 576） 消耗4点",
+            "width": 1024,
+            "height": 576,
+            "points": 4
+        }, {
+            "id": "1280x720",
+            "name": "16:9 宽图（1280 x 720） 消耗5点",
+            "width": 1280,
+            "height": 720,
+            "points": 5
+        }, {
+            "id": "1344x576",
+            "name": "21:9 超宽图（1344 x 576） 消耗5点",
+            "width": 1344,
+            "height": 576,
+            "points": 5
+        }, {
+            "id": "576x1024",
+            "name": "9:16 长图（576 x 1024） 消耗4点",
+            "width": 576,
+            "height": 1024,
+            "points": 4
+        }, {
+            "id": "576x1344",
+            "name": "21:9 超长图（576 x 1344） 消耗5点",
+            "width": 576,
+            "height": 1344,
+            "points": 5
+        }, {
+            "id": "720x1280",
+            "name": "9:16 长图（720 x 1280） 消耗5点",
+            "width": 720,
+            "height": 1280,
+            "points": 5
+        }],
+        "image2ImageExtraPoints": 10,
+        "controlNetExtraPoints": 3,
+        "banner": [{
+            "link": "https://pix.ink/topic/2023-time-space-travel-creation",
+            "image": "https://dove.cdn.hua-der.com//system/9143a4a4880141fb0a659826f014cfcb.jpg",
+            "title": "错误时空旅行"
+        }, {
+            "link": "https://pix.ink/topic/2023-fantasy-battle",
+            "image": "https://dove.cdn.hua-der.com//system/e6386cd087013fab5480d17f9e0d62af.jpg",
+            "title": "幻想合战"
+        }],
+        "footer": [
+            [{
+                "text": "等待的时间来群里看看吧："
+            }, {
+                "data": "172835873",
+                "text": "一群：172835873",
+                "action": "copy"
+            }, {
+                "data": "744645478",
+                "text": "二群：744645478",
+                "action": "copy"
+            }, {
+                "data": "869610159",
+                "text": "三群：869610159",
+                "action": "copy"
+            }, {
+                "data": "833744186",
+                "text": "四群：833744186",
+                "action": "copy"
+            }]
+        ],
+        "wallet": {
+            "points": 524688
+        },
+        "availableModels": [{
+            "id": "original",
+            "name": "默认",
+            "image": "https://dove.cdn.hua-der.com//system/714ee6888501b33a1be0b198daf8beb0.jpg?imageMogr2/thumbnail/x400/format/jpg/interlace/1",
+            "author": {
+                "link": "https://community.hua-der.com/",
+                "name": "画der"
+            },
+            "description": "默认的AI作画模型"
+        }, {
+            "id": "anything_v3",
+            "name": "AnythingV3",
+            "image": "https://dove.cdn.hua-der.com//system/febb0dc78601c9937358a68e7a9315de.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "经典的赛璐璐风格二次元模型，受众广，线条光影鲜明，出图质量高且稳定"
+        }, {
+            "id": "abyss_orange_mix_2",
+            "name": "AbyssOrangeMix2",
+            "image": "https://dove.cdn.hua-der.com//system/f8a7fcc68601ee76c3d5babf6506cbed.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/9w26p513fd0z",
+                "name": "WarriorMama777"
+            },
+            "description": "追求高精度和细节的二次元模型，风格细致详尽，同时具有真实的光影效果"
+        }, {
+            "id": "aom3a2",
+            "name": "AbyssOrangeMix3 A2 (AOM3A2)",
+            "image": "https://dove.cdn.hua-der.com//system/012105c78601ff2af5804e50bf4ab1f1.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/qgv1km92ik76",
+                "name": "WarriorMama777"
+            },
+            "description": "油画风二次元模型，画面细节丰富，光影与纹理真实，出图质量高且稳定"
+        }, {
+            "id": "bluemoonmix_v1",
+            "name": "BlueMoonMix 蓝月",
+            "image": "https://dove.cdn.hua-der.com//system/7afa9747870155f36602f280c01396f9.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/025kgr3qazwy1",
+                "name": "Rerorerorero"
+            },
+            "description": "高质量绘画模型,简单词条能出细节丰富的模型,出图比较稳定"
+        }, {
+            "id": "whitedistancemixv4",
+            "name": "WhiteDistanceMixV4",
+            "image": "https://dove.cdn.hua-der.com//system/043306c78601d3680d10c49ef175b85d.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/user/qemdr815ulr1ye",
+                "name": "88键"
+            },
+            "description": "半厚涂风二次元模型，画面细节丰富，调整负面权重可在金属质感和油画特色之间切换，出图质量高且稳定。"
+        }, {
+            "id": "disillusionmix_3",
+            "name": "DisillusionMix 幻灭",
+            "image": "https://dove.cdn.hua-der.com//system/6150974787011e309aa48ecd519639fe.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/g72y6gdru8ve1",
+                "name": "Rerorerorero"
+            },
+            "description": "蓝月同款模型,画风会有一点变化,出图也比较稳定"
+        }, {
+            "id": "mixprov35",
+            "name": "MIXProV3.5",
+            "image": "https://dove.cdn.hua-der.com//system/113708c7860121d4c929b17fd7201f9f.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/8681wp3jsygd",
+                "name": "Pㅡ31_7cm "
+            },
+            "description": "平涂风格的二次元模型，色彩细节丰富，上限较高，下限低。"
+        }, {
+            "id": "mixprov3",
+            "name": "MIXProV3",
+            "image": "https://dove.cdn.hua-der.com//system/7c04e7d586014d4cda9a43e24dafa07e.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "动漫风格合并模型,光影色彩更加柔和"
+        }, {
+            "id": "nyanmix",
+            "name": "NyanMix",
+            "image": "https://dove.cdn.hua-der.com//system/dfa909c78601399e456ed66bfaf10205.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/2g9jdr3vik1v",
+                "name": "Nyanbre"
+            },
+            "description": "偏向3d风格的二次元模型，兼具2d绘图的丰富色彩细节，上限较高，下限低。"
+        }, {
+            "id": "yozora",
+            "name": "Night Sky YOZORA",
+            "image": "https://dove.cdn.hua-der.com//system/65830ac786018790198ff82e63bb23b0.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/687q163dapl8",
+                "name": "YozoRaAru"
+            },
+            "description": "适合立绘绘制的二次元模型，风格较为统一，细节丰富，适合生产大图，出图质量高且稳定。"
+        }, {
+            "id": "refslavev2",
+            "name": "RefSlaveV2",
+            "image": "https://dove.cdn.hua-der.com//system/336a07c78601fd70cee4ca620528cff6.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "半厚涂风二次元模型，兼具色彩和细节活力，调整负面权重可在金属质感和油画特色之间切换，出图质量高且稳定。"
+        }, {
+            "id": "basil_mix",
+            "name": "BasilMix",
+            "image": "https://dove.cdn.hua-der.com//system/14e9fdc6860113aa6774b5b0a3ef6868.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/zeny9p6wcz90",
+                "name": "nuigurumi"
+            },
+            "description": "亚洲面孔写实风格模型，词条要求较低，生成质量稳定"
+        }, {
+            "id": "sukiyaki_mix_v1",
+            "name": "SukiyakiMixV1",
+            "image": "https://dove.cdn.hua-der.com//system/01af00c78601c5e0bdca3b1238834741.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/k70jmzweuk3j",
+                "name": "Vsukiyaki"
+            },
+            "description": "追求丰富色彩细节的二次元模型，生成质量高且稳定"
+        }, {
+            "id": "pvcgk",
+            "name": "PVCGK",
+            "image": "https://dove.cdn.hua-der.com//system/ee4dffc68601928570eabf2549277338.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/ej30n529a8d5",
+                "name": ""
+            },
+            "description": "写实手办风格模型，拥有真实的塑料手办质感，"
+        }, {
+            "id": "cdlandscapesmix",
+            "name": "Cheese Daddy's Landscapes mix",
+            "image": "https://dove.cdn.hua-der.com//system/d030c7c986019e287f8bfbe9b675d58d.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/l7yng1prumjz",
+                "name": "cheesedaddy"
+            },
+            "description": "拥有奇幻色彩的静物风格模型，适合生成景物和建筑奇观，拥有写实特点的同时增加了奇幻的效果，上限较高，下限低。"
+        }, {
+            "id": "schoolmax2025d_By9h",
+            "name": "schoolmax",
+            "image": "https://dove.cdn.hua-der.com//system/5d41f2a78701f4f397e67ce6356bbd75.jpg",
+            "author": {
+                "link": "g72y6gdru8vl1",
+                "name": "mjxxz"
+            },
+            "description": ""
+        }, {
+            "id": "guofeng33_oDil",
+            "name": "国风3",
+            "image": "https://dove.cdn.hua-der.com//system/ec0603a887017a59ab14330933f520c1.jpg",
+            "author": {
+                "link": "qgv1km92ikq2",
+                "name": "小李xiaolxl"
+            },
+            "description": ""
+        }, {
+            "id": "piledream_lNhH",
+            "name": "谈秋",
+            "image": "https://dove.cdn.hua-der.com//system/a339af228801b76f7cd62d8930a530ab.jpg",
+            "author": {
+                "link": "https://pix.ink/model/nqj79wmrc2d5e",
+                "name": "TanQiu"
+            },
+            "description": ""
+        }, {
+            "id": "Anything-v4.5-pruned-mergedVae",
+            "name": "Anything-v4.5",
+            "image": "https://dove.cdn.hua-der.com//system/56f8b5228801a3ed91c3b81d033ebff1.jpg",
+            "author": {
+                "link": "https://pix.ink/model/k70jmzweune6q",
+                "name": "Airic"
+            },
+            "description": ""
+        }, {
+            "id": "meinapastelv520_LGM5",
+            "name": "MeinaPastel",
+            "image": "https://dove.cdn.hua-der.com//system/d85fc1148901be598e77f5552b212776.jpg",
+            "author": {
+                "link": "https://pix.ink/model/p8q3z502akyq",
+                "name": "MeinaPastel"
+            },
+            "description": ""
+        }, {
+            "id": "pikasNewGenerationV2_Cvwu",
+            "name": "Pika's New Generation",
+            "image": "https://dove.cdn.hua-der.com//system/48dbd61b890157e87eeea83e6b063cc3.jpg",
+            "author": {
+                "link": "https://pix.ink/model/vpgm5zj2aljky",
+                "name": "PikaDesigner"
+            },
+            "description": ""
+        }, {
+            "id": "05blueAilandmix_l1FS",
+            "name": "BlueAilandMix",
+            "image": "https://dove.cdn.hua-der.com//system/acc8e31b8901577f8ddbb6aa5a9c1279.jpg",
+            "author": {
+                "link": "https://pix.ink/model/l7yng1prup1k1",
+                "name": "duskydreams"
+            },
+            "description": ""
+        }, {
+            "id": "typebV03a_QE2x",
+            "name": "TypeB",
+            "image": "https://dove.cdn.hua-der.com//system/88c0ef1b8901431eedd51a99ecc3ba37.jpg",
+            "author": {
+                "link": "https://pix.ink/model/dj7g8p20anyg8",
+                "name": "nihil"
+            },
+            "description": ""
+        }, {
+            "id": "ruvistyleV21_2gm6",
+            "name": "RuviKyu",
+            "image": "https://dove.cdn.hua-der.com//system/3812f41b8901ee108fce8232d3ab1854.jpg",
+            "author": {
+                "link": "https://pix.ink/model/12gr0v3jaw27p",
+                "name": "RuviKyu"
+            },
+            "description": ""
+        }, {
+            "id": "cetusmixWhalefall2_7fNl",
+            "name": "Cetus-Mix",
+            "image": "https://dove.cdn.hua-der.com//system/2bb4fb1b8901ac5eeb28ab23254f7a2c.jpg",
+            "author": {
+                "link": "https://pix.ink/model/687q163dazw6g",
+                "name": "Eagelaxis"
+            },
+            "description": ""
+        }, {
+            "id": "counterfeitV30Fp16_UKAC",
+            "name": "Counterfeit-V3.0",
+            "image": "https://dove.cdn.hua-der.com//system/6a46ff1b8901dc73ffbf03bc7a549864.jpg",
+            "author": {
+                "link": "https://pix.ink/model/p8q3z502a0mwv",
+                "name": "rqdwdw"
+            },
+            "description": ""
+        }],
+        "availableLoRAs": [{
+            "id": "bocchiEdStyleLora_bocchiEdStyle",
+            "name": "孤独摇滚ed画风",
+            "image": "https://dove.cdn.hua-der.com//system/662618d48601fc3d9e081df4d534c47a.jpg",
+            "author": {
+                "link": "",
+                "name": "Apyr"
+            },
+            "description": "孤独摇滚ed画风模型,会默认带上chibi,推荐clip skip 2,推荐权重:1",
+            "catalog": "画风"
+        }, {
+            "id": "mochaSky",
+            "name": "美丽的天空",
+            "image": "https://dove.cdn.hua-der.com//system/3fe983e086012fccf2a28a5aad17064f.jpg",
+            "author": {
+                "link": "",
+                "name": "000yieen"
+            },
+            "description": "使天空更加绚烂，推荐权重为0.5到1，同时，当构图包含天空时，这个lora能够提高背景占画面的比重，所以也可以作为良好的构图调节方法。",
+            "catalog": "概念"
+        }, {
+            "id": "light20and20shadow",
+            "name": "光与暗",
+            "image": "https://dove.cdn.hua-der.com//system/629f83e08601e93ba15019bf0359d035.jpg",
+            "author": {
+                "link": "",
+                "name": "eishol"
+            },
+            "description": "这个画风lora，可以让你的画面出现绚丽的光影效果，同时兼容其他角色lora，推荐权重0.6-0.8",
+            "catalog": "画风"
+        }, {
+            "id": "conceptHolographic_holographicClothing",
+            "name": "镭射材质服装",
+            "image": "https://dove.cdn.hua-der.com//system/113484e086013597f0062a526e1f773b.jpg",
+            "author": {
+                "link": "",
+                "name": "ayya"
+            },
+            "description": "一种镭射服装的概念，尽可能的少改变模型原有的风格，推荐权重0.7~0.9  触发词Trigger Words：holographic clothing，holographic",
+            "catalog": "服饰"
+        }, {
+            "id": "moxin",
+            "name": "画风模型 moxin",
+            "image": "https://dove.cdn.hua-der.com//system/59e2bdf38601666bf8be4ae8f023956c.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/dj7g8p20a7wq",
+                "name": "simhuang"
+            },
+            "description": "CFG范围将会改变风格  1~3 : 大小写意  3~7 : 逐渐工笔  2，《墨心》的推荐Lora权重为0.85以下  4.）《疏可走马》推荐Lora权重为0.7~1",
+            "catalog": "画风"
+        }, {
+            "id": "fufu_0G0v",
+            "name": "概念-fufu",
+            "image": "https://dove.cdn.hua-der.com//system/017fea228801e6b4bfbb5f41740f4100.jpg",
+            "author": {
+                "link": "https://pix.ink/model/yjr90w16am65m",
+                "name": "kozue"
+            },
+            "description": "用于生成不同的fufu,推荐权重:1,最好不要出现1girl,1boy这些人类tag",
+            "catalog": "概念"
+        }, {
+            "id": "elegantHanfuRuqun_v10",
+            "name": "汉服模型",
+            "image": "https://dove.cdn.hua-der.com//system/c2188ef886017b67115895b5c5b7bd8d.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/12gr0v3ja307",
+                "name": "L_A_X"
+            },
+            "description": "物品向lora,生成各种汉服模型,推荐权重:0.8-1",
+            "catalog": "服饰"
+        }, {
+            "id": "animeScreencapStyle_v230epochs",
+            "name": "动漫画风模型",
+            "image": "https://dove.cdn.hua-der.com//system/bb92c2d186013d49e255719a930152d0.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/w59gm1n2alqj",
+                "name": "Lykon"
+            },
+            "description": "动漫画风模型,生成动漫截图的风格,推荐权重:0.2-0.4",
+            "catalog": "画风"
+        }, {
+            "id": "hoshinoAi02_cuSY",
+            "name": "星野爱",
+            "image": "https://dove.cdn.hua-der.com//system/befcb3a78701594f8d3c78c23661eaa8.jpg",
+            "author": {
+                "link": "8681wp3js3m8j",
+                "name": "bengbeng"
+            },
+            "description": "星野爱角色lora,推荐权重:1,近景的情况下眼睛效果更好",
+            "catalog": "同人,我推的孩子"
+        }, {
+            "id": "arimaKanaOshiNoKo_kanaDiffusionMixV3",
+            "name": "有马加奈",
+            "image": "https://dove.cdn.hua-der.com//system/545a0b85870128d6c83b1cf7b081229e.jpg",
+            "author": {
+                "link": "m7ke065ruq1y2",
+                "name": "MhmdSheref"
+            },
+            "description": "有马加奈角色lora,推荐权重:1",
+            "catalog": "同人,我推的孩子"
+        }, {
+            "id": "n0ppp52dc3lk_heita",
+            "name": "黑塔",
+            "image": "https://dove.cdn.hua-der.com//system/2c243fbe87014a3d0288eec164772de8.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "黑塔的角色lora,推荐权重:1,推荐模型;AbyssOrangeMix2",
+            "catalog": "同人,崩坏:星穹轨道"
+        }, {
+            "id": "MikaMisono_v08Beta",
+            "name": "碧蓝档案  圣园未花",
+            "image": "https://dove.cdn.hua-der.com//system/7fc05ed1860123e18063bafe9a3ecfc3.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/12gr0v3ja337",
+                "name": "chibimiku"
+            },
+            "description": "圣园未花的角色lora,推荐权重:0.5",
+            "catalog": "同人,碧蓝档案"
+        }, {
+            "id": "RozenMaiden_RozenMaiden",
+            "name": "蔷薇少女—雪华绮晶 ",
+            "image": "https://dove.cdn.hua-der.com//system/e3316bd1860145c162b7e66f2099786c.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/l7yng1prum8z",
+                "name": "TeraRecorder"
+            },
+            "description": "雪华绮晶角色lora,推荐权重:0.8-1",
+            "catalog": "同人,蔷薇少女"
+        }, {
+            "id": "Alice_Tendou",
+            "name": "碧蓝档案  天童爱丽丝",
+            "image": "https://dove.cdn.hua-der.com//system/a47a4bd186018340072956b4f8c7ecc5.jpg",
+            "author": {
+                "link": "",
+                "name": "ASHonce"
+            },
+            "description": "天童爱丽丝角色lora,推荐权重:1",
+            "catalog": "同人,碧蓝档案"
+        }, {
+            "id": "arknightsTexasThe_v10",
+            "name": "明日方舟-德克萨斯",
+            "image": "https://dove.cdn.hua-der.com//system/0a5c2dea8601b453f38c6b9a32f69438.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/58n7k13ja6l2",
+                "name": "L_A_X"
+            },
+            "description": "德克萨斯角色lora,推荐权重:0.7-0.85",
+            "catalog": "同人,明日方舟"
+        }, {
+            "id": "aronaBlueArchive_v1",
+            "name": "碧蓝档案-阿罗娜",
+            "image": "https://dove.cdn.hua-der.com//system/0dbc17d48601ed4b6122c8a43d41c6d9.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/ej30n529a8r5",
+                "name": "khanon"
+            },
+            "description": "阿罗娜角色lora,推荐权重:0.8-1",
+            "catalog": "同人,碧蓝档案"
+        }, {
+            "id": "asunaLoraCollectionOf_asunaHard",
+            "name": "碧蓝档案-一之濑明日奈",
+            "image": "https://dove.cdn.hua-der.com//system/6dde17d48601d7ffd0cf8eb5f9465169.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/025kgr3qajl9",
+                "name": "rauter"
+            },
+            "description": "一之濑明日奈角色lora,推荐权重:1",
+            "catalog": "同人,碧蓝档案"
+        }, {
+            "id": "asunaLora_asuna",
+            "name": "刀剑神域-亚斯娜",
+            "image": "https://dove.cdn.hua-der.com//system/6ef417d486010b9d90fd2c6c25634d38.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/m7ke065ruvwy",
+                "name": "Lykon"
+            },
+            "description": "亚斯娜的角色lora,推荐模型:Abyss Orange,推荐权重0.6",
+            "catalog": "同人,刀剑神域"
+        }, {
+            "id": "blueArchiveTsukatsuki_rioVer2",
+            "name": "碧蓝档案-莉音",
+            "image": "https://dove.cdn.hua-der.com//system/d70b18d4860180bafa642cb750c0b8b4.jpg",
+            "author": {
+                "link": "",
+                "name": "asdk000658"
+            },
+            "description": "莉音的角色lora,推荐权重:0.8",
+            "catalog": "同人,碧蓝档案"
+        }, {
+            "id": "loraAom3",
+            "name": "AOM3",
+            "image": "https://dove.cdn.hua-der.com//system/c40083e08601ed3068ff76820feaec9d.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "从AOM3提取出的lora,类似与画风模型",
+            "catalog": "画风"
+        }, {
+            "id": "darkMagicianGirlLora_1",
+            "name": "游戏王-黑魔导女孩",
+            "image": "https://dove.cdn.hua-der.com//system/d5034cd486018b3bb57534863c882f22.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/32znyr3ja9l9",
+                "name": "Lykon"
+            },
+            "description": "黑魔导女孩角色lora,推荐权重:0.6-0.7",
+            "catalog": "同人,游戏王"
+        }, {
+            "id": "elainaMajoNoTabitabi_v2",
+            "name": "魔女之旅-伊雷娜",
+            "image": "https://dove.cdn.hua-der.com//system/b48758d48601c30cf13f0258207d7525.jpg",
+            "author": {
+                "link": "",
+                "name": "Fortuna"
+            },
+            "description": "伊雷娜角色lora,推荐权重:1"
+        }, {
+            "id": "hatsuseIzunaLORANoGame_izuna",
+            "name": "游戏人生-濑伊纲手",
+            "image": "https://dove.cdn.hua-der.com//system/21eea7d48601ba28136784a43d10dbba.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/9w26p513fdgz",
+                "name": "Maisman"
+            },
+            "description": "濑伊纲手角色lora,推荐权重:1",
+            "catalog": "同人,游戏人生"
+        }, {
+            "id": "hayaseYuukaLora_v1",
+            "name": "碧蓝档案-早濑优香",
+            "image": "https://dove.cdn.hua-der.com//system/cf6ea4d486014a2f2a36650cd24556b3.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/w59gm1n2all7",
+                "name": "leirbag421"
+            },
+            "description": "早濑优香的角色lora,推荐权重:0.8",
+            "catalog": "同人,碧蓝档案"
+        }, {
+            "id": "hinataHyuugaLora_hinata",
+            "name": "火影忍者-日向雏田",
+            "image": "https://dove.cdn.hua-der.com//system/c196aad4860135c9cb8640c8f1d5c6a3.jpg",
+            "author": {
+                "link": "",
+                "name": "Lykon"
+            },
+            "description": "日向雏田的角色lora,推荐权重:0.6",
+            "catalog": "同人,火影忍者"
+        }, {
+            "id": "hitoriGotohBocchiThe_v1",
+            "name": "孤独摇滚-波奇",
+            "image": "https://dove.cdn.hua-der.com//system/7aa88dd48601856d24b4f9126ceb5766.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/713d6wvja1dm",
+                "name": "aton"
+            },
+            "description": "波奇的角色lora,推荐模型AbyssOrange,推荐权重:1",
+            "catalog": "同人,孤独摇滚"
+        }, {
+            "id": "kasumizawaMiyu_v03",
+            "name": "碧蓝档案-霞沢美游",
+            "image": "https://dove.cdn.hua-der.com//system/2695b4d486014bf32c3e8871e108d965.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/687q163dapp7",
+                "name": "NoneType"
+            },
+            "description": "这是霞泽美优的 LoRA 模型.  推荐权重:1",
+            "catalog": "同人,碧蓝档案"
+        }, {
+            "id": "lucyCyberpunk_35Epochs",
+            "name": "赛博朋克边缘行者-露西",
+            "image": "https://dove.cdn.hua-der.com//system/5aa7b6d486010c9bce3f8b721722ae82.jpg",
+            "author": {
+                "link": "",
+                "name": "Lykon"
+            },
+            "description": "露西的角色lora,推荐权重:0.5和0.7",
+            "catalog": "同人,赛博朋克边缘行者"
+        }, {
+            "id": "mahiruShiinaTheAngelNext_1",
+            "name": "邻家天使-椎名真昼",
+            "image": "https://dove.cdn.hua-der.com//system/6ec1bad48601a2bc8966bffef1d28044.jpg",
+            "author": {
+                "link": "",
+                "name": "woing"
+            },
+            "description": "椎名真昼角色lora,可以使用“loose hair”，因为有时她的头发被绑起来,推荐权重:1",
+            "catalog": "同人,邻家天使"
+        }, {
+            "id": "makimaChainsawMan_offset",
+            "name": "电锯人-玛奇玛",
+            "image": "https://dove.cdn.hua-der.com//system/b9f5bbd48601310c37829fd8039eb954.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/qgv1km92ik66",
+                "name": "Lykon"
+            },
+            "description": "玛琪玛角色lora,推荐权重:0.5-0.7",
+            "catalog": "同人,电锯人"
+        }, {
+            "id": "miyukiCharacterLora_v10",
+            "name": "魔法科技高效劣等生-司波深雪",
+            "image": "https://dove.cdn.hua-der.com//system/c3ead4d48601b214b2144b54f8d3d1b5.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/dj7g8p20a77q",
+                "name": "Nerfgun3"
+            },
+            "description": "司波深雪的角色lora,推荐模型AbyssOrangeMix2,推荐权重:0.6-0.75",
+            "catalog": "同人,魔法科技高效劣等生"
+        }, {
+            "id": "princessZeldaLora_v1",
+            "name": "塞尔达传说-公主",
+            "image": "https://dove.cdn.hua-der.com//system/a535e6d48601705ad7583dd9e7cb4fbf.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/2g9jdr3vikke",
+                "name": "Lykon"
+            },
+            "description": "塞尔达公主的角色lora:推荐权重0.5",
+            "catalog": "同人,塞尔达传说"
+        }, {
+            "id": "raidenShogunLora_raidenShogun",
+            "name": "原神-雷电将军",
+            "image": "https://dove.cdn.hua-der.com//system/9f52c6f386011860b7d0a94e4ecca4c1.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/687q163dapp8",
+                "name": "Trauter"
+            },
+            "description": "雷电将军角色lora:推荐权重:0.6",
+            "catalog": "同人,原神"
+        }, {
+            "id": "ramREZero_v11",
+            "name": "re0-拉姆",
+            "image": "https://dove.cdn.hua-der.com//system/181eefd48601b8ac4b856f8ea9462380.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/12gr0v3ja3lm",
+                "name": "Monfor_Salentaiel"
+            },
+            "description": "它是来自Re:Zero的拉姆的角色LoRA,推荐权重:0.8-1",
+            "catalog": "同人,从零开始的异世界"
+        }, {
+            "id": "remReZero_v10",
+            "name": "re0-蕾姆",
+            "image": "https://dove.cdn.hua-der.com//system/f14ed6d4860170a32b47db7073e968b3.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/dj7g8p20a7kp",
+                "name": "Monfor_Salentaiel"
+            },
+            "description": "它是Re：Zero中蕾姆的角色LoRA,强烈建议为所有提示添加“蓝头发”,推荐权重:0.8-1",
+            "catalog": "同人,从零开始的异世界"
+        }, {
+            "id": "sakayanagiArisuClassroom_v10",
+            "name": "欢迎来到实力至上主义的教室-坂柳有栖",
+            "image": "https://dove.cdn.hua-der.com//system/5a23f3d486012550255c39e81542534b.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/yjr90w16a7g6",
+                "name": "Neuroseer"
+            },
+            "description": "坂柳有栖的lora, 推荐模型使用AbyssOrange。权重推荐:0.8-1",
+            "catalog": "同人,欢迎来到实力至上主义的教室"
+        }, {
+            "id": "shadedFaceEyesIn_shadedFace",
+            "name": "阴影脸",
+            "image": "https://dove.cdn.hua-der.com//system/6374fed486019501f48f60d64e99371e.jpg",
+            "author": {
+                "link": "",
+                "name": "Akii"
+            },
+            "description": "概念向lora,使你的角色带上阴影脸。权重推荐：1",
+            "catalog": "概念"
+        }, {
+            "id": "shiroLoraNoGameNo_v10",
+            "name": "游戏人生-白",
+            "image": "https://dove.cdn.hua-der.com//system/8a8105d58601872a04b4890e45f5c463.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/nqj79wmrcrq6",
+                "name": "Maisman"
+            },
+            "description": "白的角色lora,推荐使用负面easynegative,推荐重量:0.5-0.6",
+            "catalog": "同人,游戏人生"
+        }, {
+            "id": "studioGhibliStyle_offset",
+            "name": "吉卜力风格",
+            "image": "https://dove.cdn.hua-der.com//system/8d940dd58601d5b266906322b47eec23.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/8681wp3jsyld",
+                "name": "Lykon"
+            },
+            "description": "吉卜力风格工作室画风,它在 AbyssOrangeMix2 上也很好推荐0.65 个权重。5 以获得更真实的风格。",
+            "catalog": "画风"
+        }, {
+            "id": "vanillaNekopara_v20",
+            "name": "巧克力与香子兰",
+            "image": "https://dove.cdn.hua-der.com//system/f03441d58601e0a1f508b687fb2b1df7.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/k70jmzweukvj",
+                "name": "Ebycow"
+            },
+            "description": "巧克力与香子兰的香子兰,推荐权重:1",
+            "catalog": "同人,巧克力与香子兰"
+        }, {
+            "id": "yaeMikoRealistic_yaemikoMixed",
+            "name": "原神-八重神子",
+            "image": "https://dove.cdn.hua-der.com//system/96edd0f386017fe2dbf82b754567b26c.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/rkl61gy2t32n",
+                "name": "Cy1zu_"
+            },
+            "description": "推荐权重为:0.45-0.75，较高的权重可能会导致不良人脸生成。",
+            "catalog": "同人,原神"
+        }, {
+            "id": "yorBriarSpyFamily_lykonV1",
+            "name": "间谍过家家-约尔",
+            "image": "https://dove.cdn.hua-der.com//system/92cc1fd58601be236511327988cba830.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/2g9jdr3viklv",
+                "name": " Lykon"
+            },
+            "description": "推荐权重:0.6 ，具体取决于您的 cfg 和模型本身。",
+            "catalog": "同人,间谍过家家"
+        }, {
+            "id": "zeroTwoDARLINGInThe_offset",
+            "name": "DARLING in the FRANXX-零二",
+            "image": "https://dove.cdn.hua-der.com//system/94fd20d58601837d7b2d9610acd7fcfc.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/vpgm5zj2ae3m",
+                "name": " Lykon"
+            },
+            "description": "（FRANXX中的零二），推荐权重:1",
+            "catalog": "同人,DARLING in the FRANXX"
+        }, {
+            "id": "TsumasakyChiiChobits_v1",
+            "name": "人形电脑天使心-小唧",
+            "image": "https://dove.cdn.hua-der.com//system/ecb2bed186014b7f6daac6a0939205e3.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/zeny9p6wczg0",
+                "name": "Tsumasaky"
+            },
+            "description": "小唧角色lora,推荐权重:1",
+            "catalog": "同人,人形电脑天使心"
+        }, {
+            "id": "aquaKonosubaLora_1",
+            "name": "为美好的世界献上祝福-阿库娅",
+            "image": "https://dove.cdn.hua-der.com//system/651dd0d1860184b930df72d60129c298.jpg",
+            "author": {
+                "link": "https://community.hua-der.com/model/p8q3z502a5e6",
+                "name": "Lykon"
+            },
+            "description": "阿库娅角色lora,推荐权重:0.6",
+            "catalog": "同人,为美好的世界献上祝福"
+        }, {
+            "id": "fashigirlV54Lora64dim_2rzN",
+            "name": "时尚女孩",
+            "image": "https://dove.cdn.hua-der.com//system/3909cea387019e2e476b182dd79ef7e8.jpg",
+            "author": {
+                "link": "model/8681wp3jsyer",
+                "name": "zakp"
+            },
+            "description": "一个3d的固定脸型",
+            "catalog": "概念"
+        }, {
+            "id": "ganyuNed2Offset_y95f",
+            "name": "甘雨",
+            "image": "https://dove.cdn.hua-der.com//system/baf2d4a3870194ba1dc3b62b274ac551.jpg",
+            "author": {
+                "link": "https://pix.ink/model/l7yng1prum9p",
+                "name": "Lykon"
+            },
+            "description": "",
+            "catalog": "同人,原神"
+        }, {
+            "id": "amber20Genshin20impact_jwO0",
+            "name": "原神-安柏",
+            "image": "https://dove.cdn.hua-der.com//system/5085f3a38701806f279342397a5a0166.jpg",
+            "author": {
+                "link": "2g9jdr3vikye",
+                "name": "breakcore2"
+            },
+            "description": "比较灵活的角色lora,推荐权重:1",
+            "catalog": "同人,原神"
+        }, {
+            "id": "kamisatoAyaka_RRB3",
+            "name": "原神-神里绫华",
+            "image": "https://dove.cdn.hua-der.com//system/c5cbf6a38701334432c9e900023fa346.jpg",
+            "author": {
+                "link": "12gr0v3ja397",
+                "name": "Akii"
+            },
+            "description": "建议权重：0.9",
+            "catalog": "同人,原神"
+        }, {
+            "id": "keqingLionOptimizerDim64_GdzJ",
+            "name": "原神-刻晴",
+            "image": "https://dove.cdn.hua-der.com//system/9660dfa38701e28c05d5b5acb361d3d1.jpg",
+            "author": {
+                "link": "w59gm1n2alg7",
+                "name": "myive"
+            },
+            "description": "",
+            "catalog": "同人,原神"
+        }, {
+            "id": "E788B1E89C9CE88E89E5_8Q3l",
+            "name": "re0-爱蜜莉娅",
+            "image": "https://dove.cdn.hua-der.com//system/6da20ba48701c0a928ff76c6c23f91b3.jpg",
+            "author": {
+                "link": "nqj79wmrc2dnp",
+                "name": "Archetto"
+            },
+            "description": "",
+            "catalog": "同人,从零开始的异世界"
+        }, {
+            "id": "lemalinV68dimE6_mtFW",
+            "name": "碧蓝航线-恶毒",
+            "image": "https://dove.cdn.hua-der.com//system/07b736a4870181ec0829f3a311bda048.jpg",
+            "author": {
+                "link": "p8q3z502a5qr",
+                "name": "tsu"
+            },
+            "description": "推荐权重:0.9,可以使用lemalinlapin,lemalinmuse,lemalinsundress,lemalinswimsuit触发四种不同的衣服",
+            "catalog": "同人,碧蓝航线"
+        }, {
+            "id": "jordan3_jRCl",
+            "name": "ConceptART",
+            "image": "https://dove.cdn.hua-der.com//system/272415a487016e57068484ef999c8dd9.jpg",
+            "author": {
+                "link": "58n7k13ja6rq",
+                "name": "Satyam_SSJ10"
+            },
+            "description": "风景向lora，推荐权重:1",
+            "catalog": "概念"
+        }, {
+            "id": "E99383E585B02Normal_RN7O",
+            "name": "明日方舟-铃兰",
+            "image": "https://dove.cdn.hua-der.com//system/2deb1aa487012705d0e1a9b367a4a337.jpg",
+            "author": {
+                "link": "m7ke065ruvlg",
+                "name": "ZBW"
+            },
+            "description": "推荐权重:1，可以使用normal,luoxiaohei,lostlands,yukibare,holding_staff触发不同衣服",
+            "catalog": "同人,明日方舟"
+        }, {
+            "id": "charGenshinBarbara_cee9",
+            "name": "原神-芭芭拉",
+            "image": "https://dove.cdn.hua-der.com//system/4dbc4ba487011b27fb6dc44874a27820.jpg",
+            "author": {
+                "link": "dj7g8p20ann9d",
+                "name": " okingjo"
+            },
+            "description": "推荐权重:0.75~1",
+            "catalog": "同人,原神"
+        }, {
+            "id": "amiyaaa_nCt4",
+            "name": "阿米娅",
+            "image": "https://dove.cdn.hua-der.com//system/384e90a48701f307e9e7bc8a0a261c02.jpg",
+            "author": {
+                "link": "g72y6gdruk0d",
+                "name": "SALAMANDER"
+            },
+            "description": "阿米娅角色lora,推荐权重0.85",
+            "catalog": "同人,明日方舟"
+        }, {
+            "id": "nahida3_osH7",
+            "name": "纳西妲",
+            "image": "https://dove.cdn.hua-der.com//system/3beb4ba48701fb338938f599d26a22cf.jpg",
+            "author": {
+                "link": "025kgr3qaj0g",
+                "name": "smhtbhfampai"
+            },
+            "description": "纳西妲角色lora,推荐权重:1",
+            "catalog": "同人,原神"
+        }, {
+            "id": "charHonkaiElysia_hWFU",
+            "name": "爱莉希雅",
+            "image": "https://dove.cdn.hua-der.com//system/efe457a48701ed57f5572d90188815da.jpg",
+            "author": {
+                "link": "9w26p513fd78",
+                "name": "okingjo"
+            },
+            "description": "建议权重: 0.7-0.9.",
+            "catalog": "同人,崩坏学院"
+        }, {
+            "id": "asagimutsukiv1_7Jok",
+            "name": "碧蓝档案-浅黄 睦月",
+            "image": "https://dove.cdn.hua-der.com//system/4f8ba3a487017ce3841a3fc7eb3de89c.jpg",
+            "author": {
+                "link": "yjr90w16a79v",
+                "name": "leirbag421"
+            },
+            "description": "",
+            "catalog": "同人,碧蓝档案"
+        }, {
+            "id": "hutaoV1_QDVV",
+            "name": "原神-胡桃",
+            "image": "https://dove.cdn.hua-der.com//system/940858a4870118c9337593b8c90b818e.jpg",
+            "author": {
+                "link": "k70jmzweukm3",
+                "name": "Sdive"
+            },
+            "description": "胡桃的角色lora,推荐权重0.8",
+            "catalog": "同人,原神"
+        }, {
+            "id": "ritaLionOptimizerDim64_wRjk",
+            "name": "崩坏学院-丽塔·洛丝薇瑟",
+            "image": "https://dove.cdn.hua-der.com//system/2379a4a48701e4eaac5603a521fcb081.jpg",
+            "author": {
+                "link": "7mr5y6vumym",
+                "name": "myive"
+            },
+            "description": "推荐权重:0.7",
+            "catalog": "同人,崩坏学院"
+        }, {
+            "id": "satonoDiamondLora_kznu",
+            "name": "赛马娘-里见光钻",
+            "image": "https://dove.cdn.hua-der.com//system/f2e9b1a487017d5bf1209536493547a4.jpg",
+            "author": {
+                "link": "ej30n529a90k3",
+                "name": "mht"
+            },
+            "description": "",
+            "catalog": "同人,赛马娘"
+        }, {
+            "id": "silenceSuzukaLora_jBrB",
+            "name": "赛马娘-无声铃鹿",
+            "image": "https://dove.cdn.hua-der.com//system/7303c5a48701058d6b2e1f8f10bf48e8.jpg",
+            "author": {
+                "link": "687q163da38r",
+                "name": " mht"
+            },
+            "description": "推荐权重:0.8",
+            "catalog": "同人,赛马娘"
+        }, {
+            "id": "meishoDotoLora_WUvL",
+            "name": "赛马娘-名将怒涛 ",
+            "image": "https://dove.cdn.hua-der.com//system/cab177a487013ea686fab39d61ca8890.jpg",
+            "author": {
+                "link": "ej30n529a8py",
+                "name": "mht"
+            },
+            "description": "推荐权重:0.8",
+            "catalog": "同人,赛马娘"
+        }, {
+            "id": "specialweek_xD4u",
+            "name": "赛马娘-特别周",
+            "image": "https://dove.cdn.hua-der.com//system/70b9a5a4870190038caa35b8ade75412.jpg",
+            "author": {
+                "link": "713d6wvja1nj",
+                "name": "mht"
+            },
+            "description": "推荐权重:0.8",
+            "catalog": "同人,赛马娘"
+        }, {
+            "id": "guofeng2Lora_ljbT",
+            "name": "国风",
+            "image": "https://dove.cdn.hua-der.com//system/ded892a487016ad66ee4e647fa685399.jpg",
+            "author": {
+                "link": "m7ke065ruq1d2",
+                "name": "小李xiaolxl"
+            },
+            "description": "画风lora,推荐权重:1",
+            "catalog": "画风"
+        }, {
+            "id": "incominghugalpha16_D4D1",
+            "name": "概念-等待接吻",
+            "image": "https://dove.cdn.hua-der.com//system/092b9aa48701a369e604266c51b70eed.jpg",
+            "author": {
+                "link": "713d6wvja827g",
+                "name": "Gtonero"
+            },
+            "description": "动作lora,推荐权重:1",
+            "catalog": "概念"
+        }, {
+            "id": "jiraiV2_2Cbe",
+            "name": "概念-地雷系少女",
+            "image": "https://dove.cdn.hua-der.com//system/fdd189a78701e3e3d9200c18ddda4f14.jpg",
+            "author": {
+                "link": "qgv1km92ilzp1",
+                "name": "takosuika"
+            },
+            "description": "地雷系少女风格,推荐权重:1",
+            "catalog": "概念"
+        }, {
+            "id": "characterPokemon_Klt7",
+            "name": "宝可梦-莉莉艾",
+            "image": "https://dove.cdn.hua-der.com//system/59e26aa787019177cc107e74f97428aa.jpg",
+            "author": {
+                "link": "32znyr3jajmv1",
+                "name": "ARandomModelMaker"
+            },
+            "description": "莉莉艾角色lora,推荐权重:1",
+            "catalog": "同人,宝可梦"
+        }, {
+            "id": "utsuromeV3_t6Gp",
+            "name": "概念-空洞的眼神",
+            "image": "https://dove.cdn.hua-der.com//system/c00f86a787010edab635a7d6e98fd09f.jpg",
+            "author": {
+                "link": "vpgm5zj2alz7l",
+                "name": "xenon3134_mc"
+            },
+            "description": "眼睛lora,推荐权重:1",
+            "catalog": "概念"
+        }, {
+            "id": "genshinstickers_2OZB",
+            "name": "概念-原神贴纸",
+            "image": "https://dove.cdn.hua-der.com//system/002372a7870172f194440a397ec53e6d.jpg",
+            "author": {
+                "link": "l7yng1prupe0q",
+                "name": "smhtbhfampai"
+            },
+            "description": "原神的chibi风格,推荐权重:1",
+            "catalog": "画风"
+        }, {
+            "id": "akchibi_ffa8",
+            "name": "概念-明日方舟小人",
+            "image": "https://dove.cdn.hua-der.com//system/dc6caca78701401d89a51609e0745a88.jpg",
+            "author": {
+                "link": "2g9jdr3vij2pr",
+                "name": "7ar"
+            },
+            "description": "明日方舟chibi风格,推荐权重:1",
+            "catalog": "画风"
+        }, {
+            "id": "gachaimpact_Kp2R",
+            "name": "原神游戏画风",
+            "image": "https://dove.cdn.hua-der.com//system/339e01a88701c8935823a6c84ccf0cac.jpg",
+            "author": {
+                "link": "dj7g8p20an1ll",
+                "name": "Trauter"
+            },
+            "description": "游戏画风,推荐权重0.6",
+            "catalog": "画风"
+        }, {
+            "id": "gothgal_B2qC",
+            "name": "哥特式服装",
+            "image": "https://dove.cdn.hua-der.com//system/d5c4a0a78701258f954218502e0ef8e3.jpg",
+            "author": {
+                "link": "https://wx-app-web.hua-der.com/model/12gr0v3jawg1r",
+                "name": "EDG"
+            },
+            "description": "哥特式服装lora,推荐权重:1.0",
+            "catalog": "服饰"
+        }, {
+            "id": "anyahehface_C2m9",
+            "name": "阿尼亚表情包",
+            "image": "https://dove.cdn.hua-der.com//system/6356aba787014e392cbbaa9b66129043.jpg",
+            "author": {
+                "link": "687q163daz170",
+                "name": "lottalewds"
+            },
+            "description": "阿尼亚嘲讽表情,推荐权重:1.0",
+            "catalog": "概念"
+        }, {
+            "id": "shiraikurokoV1_z0Io",
+            "name": "白井黑子",
+            "image": "https://dove.cdn.hua-der.com//system/1d22c3a7870108993fc9d22608f3e2a4.jpg",
+            "author": {
+                "link": "w59gm1n2aj8r8",
+                "name": "binnng"
+            },
+            "description": "",
+            "catalog": "同人,魔法禁书目录"
+        }, {
+            "id": "latentlabs360_3FrC",
+            "name": "概念-全景360",
+            "image": "https://dove.cdn.hua-der.com//system/fe36c3a7870128b0050ac8ef6ac46aba.jpg",
+            "author": {
+                "link": "p8q3z502a08ym",
+                "name": "LatentLabs"
+            },
+            "description": "生成360全景建筑,推荐权重:1.0",
+            "catalog": "概念"
+        }, {
+            "id": "blindboxV1Mix_vlCr",
+            "name": "概念-剪纸画风",
+            "image": "https://dove.cdn.hua-der.com//system/c12702a88701553163c516a11b7f6b35.jpg",
+            "author": {
+                "link": "58n7k13ja9qe7",
+                "name": "CXCXCX"
+            },
+            "description": "使图片更加立体,权重建议1.0",
+            "catalog": "概念"
+        }, {
+            "id": "mohe_r07779d8c5qv",
+            "name": "茉禾",
+            "image": "https://dove.cdn.hua-der.com//system/3ce891a387013927a3e58629d7768d66.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "茉禾的角色lora,推荐权重:1,推荐模型:AbyssOrangeMix2",
+            "catalog": "同人"
+        }, {
+            "id": "kelala_96vq",
+            "name": "星穹轨道-克拉拉",
+            "image": "https://dove.cdn.hua-der.com//system/1a233cbe87017872ba8f933b242c4e8a.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "星穹轨道角色lora,推荐权重:1",
+            "catalog": "同人,崩坏:星穹轨道"
+        }, {
+            "id": "j9zzz1l8c8ww_yanmoai",
+            "name": "阎魔爱",
+            "image": "https://dove.cdn.hua-der.com//system/6bc547be8701b0a3ea89f399371d5f22.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "",
+            "catalog": "同人,地狱少女"
+        }, {
+            "id": "wpzzzjq7fr3_xingyao",
+            "name": "杏瑶",
+            "image": "https://dove.cdn.hua-der.com//system/70a147be87011cbc8573625af585819a.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "",
+            "catalog": ""
+        }, {
+            "id": "march7thV1_pIoE",
+            "name": "星穹轨道-三月七",
+            "image": "https://dove.cdn.hua-der.com//system/3dd74ebe8701e2ba55e5f2d67a45af4a.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "",
+            "catalog": "同人,崩坏:星穹轨道"
+        }, {
+            "id": "xishifmvp_Tbe1",
+            "name": "王者荣耀-西施服装",
+            "image": "https://dove.cdn.hua-der.com//system/7faa97f68701f19894d2b205a305e91f.jpg",
+            "author": {
+                "link": "https://pix.ink/model/p8q3z502a06z5",
+                "name": " jappww"
+            },
+            "description": "推荐权重:1",
+            "catalog": "同人,王者荣耀"
+        }, {
+            "id": "kokkoroV1_1vvu",
+            "name": "公主链接-可可罗",
+            "image": "https://dove.cdn.hua-der.com//system/a8419bf6870114b4e31b3a86e45314ad.jpg",
+            "author": {
+                "link": "https://pix.ink/model/k70jmzweun2zl",
+                "name": "leirbag421"
+            },
+            "description": "推荐权重:1",
+            "catalog": "同人,公主链接"
+        }, {
+            "id": "xishi_oqVj",
+            "name": "王者荣耀-西施服装",
+            "image": "https://dove.cdn.hua-der.com//system/7bc0b6f68701814755aca6d707b19f6d.jpg",
+            "author": {
+                "link": "https://pix.ink/model/32znyr3jajqdn",
+                "name": " jappww"
+            },
+            "description": "推荐权重:1",
+            "catalog": "同人,王者荣耀"
+        }, {
+            "id": "kyoukaV1_V2T1",
+            "name": "公主链接-镜华",
+            "image": "https://dove.cdn.hua-der.com//system/a698bef68701ae06e4fdea9fc569cce1.jpg",
+            "author": {
+                "link": "https://pix.ink/model/dj7g8p20an1y5",
+                "name": "leirbag421"
+            },
+            "description": "推荐权重：1",
+            "catalog": "同人,公主链接"
+        }, {
+            "id": "charSuisei_QOJZ",
+            "name": "星街彗星",
+            "image": "https://dove.cdn.hua-der.com//system/10a7c8f6870100cb92a2dea37c3b24cc.jpg",
+            "author": {
+                "link": "https://pix.ink/model/12gr0v3jawg2j",
+                "name": "ChameleonAI"
+            },
+            "description": "推荐权重:0.6-0.9 ",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "senkoloraV4_BVRr",
+            "name": "仙狐",
+            "image": "https://dove.cdn.hua-der.com//system/c509d4f68701e936678020a7b606eb6c.jpg",
+            "author": {
+                "link": "https://pix.ink/model/l7yng1prupdp2",
+                "name": "NeuroSenko"
+            },
+            "description": "贤惠幼妻仙狐小姐的角色,，推荐权重：0.8",
+            "catalog": "同人"
+        }, {
+            "id": "pekora1000009_faPQ",
+            "name": "兔田佩克拉",
+            "image": "https://dove.cdn.hua-der.com//system/8e5cd7f687013f7b47259692cf1d1a38.jpg",
+            "author": {
+                "link": "https://pix.ink/model/m7ke065ruq1gw",
+                "name": "Numeratic"
+            },
+            "description": "推荐权重:1",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "iwanagakotoko_LtDB",
+            "name": "岩永琴子",
+            "image": "https://dove.cdn.hua-der.com//system/7c8ddbf68701e49f94059c1d1aa77746.jpg",
+            "author": {
+                "link": "https://pix.ink/model/12gr0v3jame6",
+                "name": "stellarY"
+            },
+            "description": "虚构推理女主,推荐权重:0.8",
+            "catalog": "同人,虚构推理"
+        }, {
+            "id": "natsuiromatsuriv5_klA0",
+            "name": "夏色祭",
+            "image": "https://dove.cdn.hua-der.com//system/6f75def6870113368fa7878c076e3ac5.jpg",
+            "author": {
+                "link": "https://pix.ink/model/qgv1km92il89m",
+                "name": " leirbag421"
+            },
+            "description": "推荐权重:1",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "gawrgura_9z9a",
+            "name": "噶呜·古拉",
+            "image": "https://dove.cdn.hua-der.com//system/91bce7f687014f98edaf2abe62a3a619.jpg",
+            "author": {
+                "link": "https://pix.ink/model/w59gm1n2a0el",
+                "name": " FlatIsJustice"
+            },
+            "description": "推荐权重:1",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "charLamychameleonaiV1_7HIX",
+            "name": "雪花菈米",
+            "image": "https://dove.cdn.hua-der.com//system/773cf0f68701b2b5a388feb75f03caa4.jpg",
+            "author": {
+                "link": "https://pix.ink/model/w59gm1n2ajme7",
+                "name": " ChameleonAI"
+            },
+            "description": "推荐权重:1",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "sakura20mikoV1_iFL5",
+            "name": "樱巫女",
+            "image": "https://dove.cdn.hua-der.com//system/946308f7870179bb72db8d4646fd6c55.jpg",
+            "author": {
+                "link": "https://pix.ink/model/nqj79wmrc2w85",
+                "name": " aHoy"
+            },
+            "description": "推荐权重:0.6",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "houshoumarinev2lora_09zg",
+            "name": "宝钟玛琳",
+            "image": "https://dove.cdn.hua-der.com//system/78450ff78701599ba386ccf103b4a568.jpg",
+            "author": {
+                "link": "https://pix.ink/model/j7mr5y6vu77r",
+                "name": " ChameleonAI"
+            },
+            "description": "推荐权重0.8-1.0",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "shiranui_kci9",
+            "name": "阴阳师-不知火",
+            "image": "https://dove.cdn.hua-der.com//system/a1bc1cf78701cd8cedcf0a71770dc443.jpg",
+            "author": {
+                "link": "https://pix.ink/model/w59gm1n2ajemd",
+                "name": " jappww"
+            },
+            "description": "推荐权重：1",
+            "catalog": "同人,阴阳师"
+        }, {
+            "id": "kizunaAiV10_iGMR",
+            "name": "绊爱",
+            "image": "https://dove.cdn.hua-der.com//system/062a2cf78701ef6df166268223264354.jpg",
+            "author": {
+                "link": "https://pix.ink/model/g72y6gdru8vmk",
+                "name": "h_madoka"
+            },
+            "description": "推荐权重;0.6",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "koroneChameleonaiV10_qYFn",
+            "name": "戌神沁音",
+            "image": "https://dove.cdn.hua-der.com//system/d152aff98701443b496afba631ca64b6.jpg",
+            "author": {
+                "link": "https://pix.ink/model/yjr90w16a09w",
+                "name": " ChameleonAI"
+            },
+            "description": "推荐权重:0.7",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "yuzukiChocoV1_9JTY",
+            "name": "癒月巧可",
+            "image": "https://dove.cdn.hua-der.com//system/9d30b5f987019408608f299e9f523d99.jpg",
+            "author": {
+                "link": "https://pix.ink/model/025kgr3qazw50",
+                "name": "h_madoka"
+            },
+            "description": "推荐权重：0.6",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "fubuker1000007_xB9w",
+            "name": "白上吹雪",
+            "image": "https://dove.cdn.hua-der.com//system/2201baf98701db76af14149fc0f9c78d.jpg",
+            "author": {
+                "link": "https://pix.ink/model/58n7k13ja9qvp",
+                "name": "Numeratic"
+            },
+            "description": "推荐权重:1",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "watamev3lora000013_vkjl",
+            "name": "角卷绵芽",
+            "image": "https://dove.cdn.hua-der.com//system/af32c1f98701086b944e03d987ab10a0.jpg",
+            "author": {
+                "link": "https://civitai.com/models/9430",
+                "name": "ChameleonAI"
+            },
+            "description": "推荐权重:1",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "charNakiriayameV10_5w1j",
+            "name": "百鬼绫目",
+            "image": "https://dove.cdn.hua-der.com//system/01abc7f98701f5bfa19df34d9f892ace.jpg",
+            "author": {
+                "link": "https://pix.ink/model/vpgm5zj2awv5",
+                "name": " ChameleonAI"
+            },
+            "description": "推荐权重: 0.6-0.9",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "hololiveTokoyamiTowa_Lmmv",
+            "name": "常暗永远",
+            "image": "https://dove.cdn.hua-der.com//system/cd62d1f987011ceb3a32602096d00202.jpg",
+            "author": {
+                "link": "https://pix.ink/model/k70jmzweun22v",
+                "name": " aHoy"
+            },
+            "description": "推荐权重:0.7",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "kagurameaV10_rKAB",
+            "name": "神乐Mea",
+            "image": "https://dove.cdn.hua-der.com//system/38a4d5f98701e4a6367f80c75238ce28.jpg",
+            "author": {
+                "link": "https://pix.ink/model/dj7g8p20ang3m",
+                "name": " MeaOMO"
+            },
+            "description": "推荐权重:0.7~0.9",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "fgoap09_oIVI",
+            "name": "fgo愚人节风格",
+            "image": "https://dove.cdn.hua-der.com//system/6f0edcf987017a9a592e39843d8493d8.jpg",
+            "author": {
+                "link": "https://pix.ink/model/2g9jdr3vijp90",
+                "name": "ARIRIGI"
+            },
+            "description": "推荐权重:1",
+            "catalog": "画风"
+        }, {
+            "id": "amamyaNijisanjiV1_romy",
+            "name": "天宫心",
+            "image": "https://dove.cdn.hua-der.com//system/b667def98701e7524b95a41c91747c13.jpg",
+            "author": {
+                "link": "https://pix.ink/model/w59gm1n2aj8zv",
+                "name": "StellaSplitter"
+            },
+            "description": "推荐权重: 0.5~0.8",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "loraAqua_aOmK",
+            "name": "凑阿库娅",
+            "image": "https://dove.cdn.hua-der.com//system/141ae3f98701b9387c5cde2ff7a1f20c.jpg",
+            "author": {
+                "link": "https://pix.ink/model/yjr90w16a0q2",
+                "name": "markggkiller"
+            },
+            "description": "推荐权重:0.7",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "nene09_zIht",
+            "name": "桃铃音音",
+            "image": "https://dove.cdn.hua-der.com//system/aad7e7f987014ff3fc6a77cc600e6281.jpg",
+            "author": {
+                "link": "https://pix.ink/model/p8q3z502a08m9",
+                "name": "holostrawberry"
+            },
+            "description": "推荐权重;1",
+            "catalog": "同人,vtber"
+        }, {
+            "id": "ui29_Wtzd",
+            "name": "碧蓝档案 古关忧",
+            "image": "https://dove.cdn.hua-der.com//system/7444ebf98701cf546834f59957dd82b4.jpg",
+            "author": {
+                "link": "https://pix.ink/model/025kgr3qa6v9",
+                "name": " InvalidFuture"
+            },
+            "description": "推荐权重：0.8",
+            "catalog": "同人,碧蓝档案"
+        }, {
+            "id": "hongxue000018_UsGj",
+            "name": "明日方舟-鸿雪",
+            "image": "https://dove.cdn.hua-der.com//system/beb9ec228801ba2d5e2558e8cc624c59.jpg",
+            "author": {
+                "link": "https://pix.ink/model/yjr90w16am1zp",
+                "name": "Archetto"
+            },
+            "description": "明日方舟鸿雪模型,推荐权重为0.6,建议使用高清修复获得最好体验。",
+            "catalog": "同人,明日方舟"
+        }, {
+            "id": "seeleV110epo_nNnN",
+            "name": "星穹轨道-希儿",
+            "image": "https://dove.cdn.hua-der.com//system/9653ed228801caeaf3f2b25a492713b1.jpg",
+            "author": {
+                "link": "https://pix.ink/model/g72y6gdru8v6j",
+                "name": "striu21"
+            },
+            "description": "星穹轨道,希儿模型,此 LoRA 的建议重量为 0.5 至 0.7",
+            "catalog": "同人,星穹轨道"
+        }, {
+            "id": "bailuhonkaistarrail0_aXt0",
+            "name": "星穹轨道-白露",
+            "image": "https://dove.cdn.hua-der.com//system/bf30ee228801ded3ce08f0f8690bbf6e.jpg",
+            "author": {
+                "link": "https://pix.ink/model/025kgr3qazwg7",
+                "name": "RockHardArt"
+            },
+            "description": "星穹轨道的白露模型,推荐权重:1",
+            "catalog": "同人,星穹轨道"
+        }, {
+            "id": "kafkasr_9zWh",
+            "name": "星穹轨道-卡夫卡",
+            "image": "https://dove.cdn.hua-der.com//system/ee34ef228801d65849435e89b8824134.jpg",
+            "author": {
+                "link": "https://pix.ink/model/rkl61gy2tpjqg",
+                "name": "TwoMoreTimes89"
+            },
+            "description": "星穹轨道的卡夫卡,自由程度较高,推荐权重:从 0.4 到 1 ",
+            "catalog": "同人,星穹轨道"
+        }, {
+            "id": "bronya20rand_4Bok",
+            "name": "星穹轨道-布洛妮娅",
+            "image": "https://dove.cdn.hua-der.com//system/3665fb2288017b1ce205424dcd161563.jpg",
+            "author": {
+                "link": "https://pix.ink/model/9w26p513fq68m",
+                "name": "Pikkiwynn"
+            },
+            "description": "星穹轨道的布洛妮娅,建议权重:0.6-0.8",
+            "catalog": "同人,星穹轨道"
+        }, {
+            "id": "rimochan",
+            "name": "莉沫酱",
+            "image": "https://dove.cdn.hua-der.com//system/1759882988014bbf5fdfec1c04fff52b.jpg",
+            "author": {
+                "link": "",
+                "name": "莉沫酱"
+            },
+            "description": "莉沫酱的模型,推荐权重1",
+            "catalog": "莉沫酱"
+        }, {
+            "id": "5CB1_daichuan1",
+            "name": "岱川Doris1",
+            "image": "https://dove.cdn.hua-der.com//system/377729b58801ae5127f9ee5d4551f56f.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "",
+            "catalog": ""
+        }, {
+            "id": "5CB1_daichuan2",
+            "name": "岱川Doris2",
+            "image": "https://dove.cdn.hua-der.com//system/918f29b58801515a962c0bdda195898e.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "",
+            "catalog": ""
+        }, {
+            "id": "a6ve_Yuuri",
+            "name": "花见汐梨Yuuri",
+            "image": "https://dove.cdn.hua-der.com//system/4603dcb98801dcb6912bf396a2231a9a.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "",
+            "catalog": ""
+        }, {
+            "id": "a6ve_Yuuri2",
+            "name": "花见汐梨Yuuri2",
+            "image": "https://dove.cdn.hua-der.com//system/4b7adcb98801c9cd17b337da544dac5e.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "",
+            "catalog": ""
+        }, {
+            "id": "15df_Teletha01",
+            "name": "泰蕾莎Channel",
+            "image": "https://dove.cdn.hua-der.com//system/90fd0dc08801102a01e06b3b850a7af0.jpg",
+            "author": {
+                "link": "",
+                "name": ""
+            },
+            "description": "",
+            "catalog": ""
+        }],
+        "availableSamplingMethods": [{
+            "id": "Euler a",
+            "name": "Euler a"
+        }, {
+            "id": "DPM++ 2M Karras",
+            "name": "DPM++ 2M Karras"
+        }, {
+            "id": "DPM2 a Karras",
+            "name": "DPM2 a Karras"
+        }, {
+            "id": "DPM++ 2S a Karras",
+            "name": "DPM++ 2S a Karras"
+        }, {
+            "id": "DPM2 a",
+            "name": "DPM2 a"
+        }, {
+            "id": "DPM++ 2S a",
+            "name": "DPM++ 2S a"
+        }, {
+            "id": "Euler",
+            "name": "Euler"
+        }, {
+            "id": "LMS",
+            "name": "LMS"
+        }, {
+            "id": "Heun",
+            "name": "Heun"
+        }, {
+            "id": "DPM2",
+            "name": "DPM2"
+        }, {
+            "id": "DPM fast",
+            "name": "DPM fast"
+        }, {
+            "id": "LMS Karras",
+            "name": "LMS Karras"
+        }, {
+            "id": "DPM2 Karras",
+            "name": "DPM2 Karras"
+        }, {
+            "id": "DPM++ 2M",
+            "name": "DPM++ 2M"
+        }, {
+            "id": "PLMS",
+            "name": "PLMS"
+        }, {
+            "id": "DPM++ SDE",
+            "name": "DPM++ SDE"
+        }, {
+            "id": "DPM++ SDE Karras",
+            "name": "DPM++ SDE Karras"
+        }, {
+            "id": "UniPC",
+            "name": "UniPC"
+        }],
+        "availableHighResFixUpscaler": [{
+            "name": "Latent",
+            "value": "Latent"
+        }, {
+            "name": "Latent (antialiased)",
+            "value": "Latent (antialiased)"
+        }, {
+            "name": "Latent (bicubic)",
+            "value": "Latent (bicubic)"
+        }, {
+            "name": "Latent (bicubic antialiased)",
+            "value": "Latent (bicubic antialiased)"
+        }, {
+            "name": "Latent (nearest)",
+            "value": "Latent (nearest)"
+        }, {
+            "name": "Latent (nearest-exact)",
+            "value": "Latent (nearest-exact)"
+        }, {
+            "name": "None",
+            "value": "None"
+        }, {
+            "name": "Lanczos",
+            "value": "Lanczos"
+        }, {
+            "name": "Nearest",
+            "value": "Nearest"
+        }, {
+            "name": "ESRGAN_4x",
+            "value": "ESRGAN_4x"
+        }, {
+            "name": "R-ESRGAN 4x+",
+            "value": "R-ESRGAN 4x+"
+        }, {
+            "name": "R-ESRGAN 4x+ Anime6B",
+            "value": "R-ESRGAN 4x+ Anime6B"
+        }, {
+            "name": "LDSR",
+            "value": "LDSR"
+        }, {
+            "name": "SwinIR_4x",
+            "value": "SwinIR_4x"
+        }],
+        "availableControlNetLayerModel": [{
+            "name": "边缘",
+            "value": "canny"
+        }, {
+            "name": "深度",
+            "value": "depth"
+        }, {
+            "name": "M-LSD",
+            "value": "mlsd"
+        }, {
+            "name": "法线",
+            "value": "normal"
+        }, {
+            "name": "姿势",
+            "value": "openpose"
+        }, {
+            "name": "涂鸦",
+            "value": "scribble"
+        }, {
+            "name": "分割",
+            "value": "seg"
+        }, {
+            "name": "线稿",
+            "value": "lineart"
+        }, {
+            "name": "动漫线稿",
+            "value": "lineart_anime"
+        }, {
+            "name": "亮度",
+            "value": "brightness"
+        }, {
+            "name": "光照",
+            "value": "illumination"
+        }, {
+            "name": "Soft Edge",
+            "value": "softedge"
+        }, {
+            "name": "ip2p",
+            "value": "ip2p"
+        }, {
+            "name": "shuffle",
+            "value": "shuffle"
+        }, {
+            "name": "tile",
+            "value": "tile"
+        }, {
+            "name": "inpaint",
+            "value": "inpaint"
+        }],
+        "availableVAE": [{
+            "id": "default",
+            "name": "默认"
+        }, {
+            "id": "sd_anime",
+            "name": "sd-anime"
+        }, {
+            "id": "vae-ft-mse-840000-ema-pruned",
+            "name": "vae-ft-mse-840000"
+        }, {
+            "id": "kl-f8-anime2",
+            "name": "kl-f8-anime2"
+        }]
+    }
+}

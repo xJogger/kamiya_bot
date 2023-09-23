@@ -1,8 +1,8 @@
 {
-    "email"   : "example@gmail.com",
-    "password": "mypassword",
-    "api_id"  : 123456,
-    "api_hash": "myhash456",
-    "token"   : "mytoken789",
-    "user_id" : 78946
+    "key"          : "sk-XXXX",
+    "time_out_img" : "http://example.com/example.jpg",
+    "api_id"       : 123456,
+    "api_hash"     : "myhash456",
+    "token"        : "mytoken789",
+    "user_id"      : 78946
 }
