@@ -36,7 +36,7 @@ negative_prompt = "lowres, bad anatomy, bad hands, text, error, missing fingers,
 sampler= 'DPM++ 2M Karras'
 width  = 640
 height = 640
-model  = 'Anything-v4.5-pruned-mergedVa'
+model  = 'Anything-v4.5-pruned-mergedVae'
 
 def get_config(key):
     headers = {
@@ -116,7 +116,7 @@ def set_an(client, message):
         message.reply_text(f"You are not allowed to use this bot.\nYour user id is: {message.from_user.id}")
     else:
         global model
-        model = 'Anything-v4.5-pruned-mergedVa'
+        model = 'Anything-v4.5-pruned-mergedVae'
         message.reply_text(f"Current model is : `{model}`")
 
 @app.on_message(filters.command(["set_l"]))
